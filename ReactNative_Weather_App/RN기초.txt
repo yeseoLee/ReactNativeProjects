@@ -1,0 +1,59 @@
+RN을 위한 기본지식
+JS, ES6, React (RN보다 React의 검색결과가 더 많이 나온다)
+
+예시)
+변수선언-let,const
+
+JS 
+
+let, const 
+
+const a = 10  (상수, 변경불가)
+let b = 20 (변경가능)
+
+const {name, age, email} = req.body
+
+문자열 포맷
+import, export
+
+삼항연산자 ?
+
+화살표함수
+
+어플리케이션의 기초
+
+1. 레이아웃
+flexbox와 View를 반환하는 컴포넌트로 구성
+
+2.컴포넌트
+
+-클래스형
+-함수형
+컴포넌트를 정의하는 방식
+
+컴포넌트는 React.Component를 상속받아 사용
+컴포넌트끼리는 상속보다는 합성
+컴포넌트를 여러개의 작은 컴포넌트로 나누어 만들 수 있다.
+
+3.props,state
+
+-props 컴포넌트에서 사용하는 매개변수 (속성)
+일종의 상수
+-state : 상태 (lifecycle) 값을 계속 업데이트하여 render 
+일종의 변수
+
+즉 계산으로 나오거나 예측가능한 값 => props
+사용자의 입력등, 꼭 입력을 받아야 하는 값 => state
+
+공식문서
+https://ko.reactjs.org/docs/introducing-jsx.html
+https://reactnative.dev/docs/intro-react
+
+레이아웃
+https://yuddomack.tistory.com/entry/5React-Native-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EB%94%94%EC%9E%90%EC%9D%B8-1%EB%B6%80-flex%EC%99%80-width-height?category=754156
+
+인스타 UI만들기
+https://velog.io/@anpigon/React-Native-UI-%EB%A7%8C%EB%93%A4%EA%B8%B0-1
+
+노마드코더 RN 강의
+https://youtu.be/cRhHBpYK8I4
